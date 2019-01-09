@@ -13,3 +13,8 @@ if len(str) < 3:
 else:
     print(str + ' is a Strong name')
 
+# for --- in loop
+names = ['Mirabelle', 'Miguel', 'Lisa', 'Eric']
+for name in names:
+    print(name)
+
