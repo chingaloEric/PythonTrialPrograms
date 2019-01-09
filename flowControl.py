@@ -18,3 +18,6 @@ names = ['Mirabelle', 'Miguel', 'Lisa', 'Eric']
 for name in names:
     print(name)
 
+# range() fucntion
+for i in range(len(names)):
+    print(names[i])
