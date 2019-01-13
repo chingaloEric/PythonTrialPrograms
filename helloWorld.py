@@ -3,6 +3,7 @@
 #     print i+1, 'Hello World!'
 
 def summation(a, b):
-    print a, '+', b, '=', a+b
+    print( a, '+', b, '=', a+b)
 
 summation(10, 2)
+
