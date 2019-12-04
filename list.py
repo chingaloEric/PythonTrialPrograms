@@ -17,6 +17,10 @@ for count in range(len(names)):
     # print(message + " " + names[count])
     pass
 
+# copying the list
+new_names = names[:]
+print(new_names)
+
 # list comprehensions
 squares = [num**2 for num in range(1,11)]
 print(squares)
