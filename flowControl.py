@@ -3,7 +3,6 @@ count = 0
 str = 'Eric'
 while count < len(str):
     print(str[count]),
-    print('\n'),
     count = count + 1
 print('ended the loop')
     
