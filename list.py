@@ -31,5 +31,11 @@ users = ['eric', 'josh', 'lisa']
 to_be_deleted = 'josh'
 while to_be_deleted in users:
     users.remove(to_be_deleted)
-
 print(users)
+
+# moving items to a new list:
+new_users = []
+while users:
+    current_user = users.pop()
+    new_users.append(current_user)
+print('New user List: ' + str(new_users))
