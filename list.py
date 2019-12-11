@@ -24,3 +24,12 @@ print(new_names)
 # list comprehensions
 squares = [num**2 for num in range(1,11)]
 print(squares)
+
+# It is advised to use 'while' loop to modiffy the list
+# deleting an item:
+users = ['eric', 'josh', 'lisa']
+to_be_deleted = 'josh'
+while to_be_deleted in users:
+    users.remove(to_be_deleted)
+
+print(users)
