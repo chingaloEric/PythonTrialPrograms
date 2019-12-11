@@ -1,16 +1,16 @@
 # while loop in python
 count = 0
-str = 'Eric'
-while count < len(str):
-    print(str[count]),
+string = 'Eric'
+while count < len(string):
+    print(string[count]),
     count = count + 1
 print('ended the loop')
     
 # if statement
-if len(str) < 3: 
-    print(str + ' is a Weak name')
+if len(string) < 3: 
+    print(string + ' is a Weak name')
 else:
-    print(str + ' is a Strong name')
+    print(string + ' is a Strong name')
 
 # for --- in loop
 names = ['Mirabelle', 'Miguel', 'Lisa', 'Eric']
