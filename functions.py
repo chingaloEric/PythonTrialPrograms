@@ -2,9 +2,8 @@
 def fibonacci(number):
     a, b= 0, 1
     while(a<number):
-        print(a, end=' ')
+        print(a, end='\n')
         a, b = b, a+b
-    print(' ')
 
 # fibonacci(7)
 
