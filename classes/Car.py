@@ -29,6 +29,6 @@ class ElectricCar(Car):
         super().__init__(name, model, year)
         self.battery = Battery(100)
 
-car_1 = ElectricCar('Tesla', 'Model X', 2020)
-print(car_1.get_descriptive_name())
-print('Battery power is: ' + car_1.battery.get_battery_details())
+# car_1 = ElectricCar('Tesla', 'Model X', 2020)
+# print(car_1.get_descriptive_name())
+# print('Battery power is: ' + car_1.battery.get_battery_details())
