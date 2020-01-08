@@ -10,6 +10,15 @@ current_path = os.path.abspath(os.path.dirname(__file__))
 path = os.path.join(current_path, "names.txt")
 
 # method to read the file
+"""
+Python has different file access modes:
+'r' = reading
+'w' = writing
+'x' = creating and writting a file
+'a' = appending a file
+'r+' = reading and writting a file
+
+"""
 with open(path, 'r') as file_object:
     # reading the whole file
 
