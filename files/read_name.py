@@ -11,5 +11,15 @@ path = os.path.join(current_path, "names.txt")
 
 # method to read the file
 with open(path, 'r') as file_object:
-    file_content = file_object.read()
-    print(file_content)
+    # reading the whole file
+
+    # file_content = file_object.read()
+    # print(file_content)
+
+    # reading line by line
+    names = []
+    for line in file_object:
+        names.append(line.strip())
+    
+    for name in names:
+        print('Hello, my name is ' + name)
